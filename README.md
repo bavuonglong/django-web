@@ -16,4 +16,10 @@ To create an app inside the project, use
 python manage startapp blog
 ```
 
+For the first time running the project, we need to create admin user, to do that, we need
+
+```
+python manage.py migrate
+python magage.py createsuperuser
+```
 
