@@ -20,6 +20,17 @@ For the first time running the project, we need to create admin user, to do that
 
 ```
 python manage.py migrate
-python magage.py createsuperuser
+python manage.py createsuperuser
 ```
 
+After creating database models, we need to:
+```
+python manage.py makemigrations
+```
+Then it's going to generate migration script under migrations folder
+
+To view what SQL statement actually run behind the scence, we can
+```
+python manage.py sqlmigrate blog 0001
+```
+with `blog` is application name, 0001 is id of migration script
