@@ -34,3 +34,18 @@ To view what SQL statement actually run behind the scence, we can
 python manage.py sqlmigrate blog 0001
 ```
 with `blog` is application name, 0001 is id of migration script
+
+To actually run migration script, we have to:
+```
+python manage.py migrate
+```
+
+To access shell command line:
+```
+python manage.py shell
+```
+
+Create users app
+```
+python manage.py startapp users
+```
