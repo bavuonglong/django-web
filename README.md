@@ -10,4 +10,10 @@ To start project up, use
 python manage.py runserver
 ```
 
+To create an app inside the project, use
+
+```
+python manage startapp blog
+```
+
 
