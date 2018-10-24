@@ -1,0 +1,9 @@
+Package             Version
+------------------- -------
+Django              2.1.2  
+django-crispy-forms 1.7.2  
+Pillow              5.3.0  
+pip                 18.1   
+pytz                2018.5 
+setuptools          40.4.3 
+wheel               0.32.1 
